@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit a blog</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+  </head>
+  <body>
+    <main class="container mx-auto">
+      <form class="mt-5" id="edit-form">
+        <div class="mb-3">
+          <label for="title" class="form-label">Post Title</label>
+          <input type="text" class="form-control" id="title" aria-describedby="postTitle" />
+        </div>
+        <div class="mb-3">
+          <label for="description" class="form-label">Description</label>
+          <textarea class="form-control" id="description" aria-describedby="postDescription"> </textarea>
+        </div>
+        <div class="mb-3">
+          <label for="views" class="form-label">Views</label>
+          <input type="number" class="form-control" id="views" aria-describedby="postViews" />
+        </div>
+        <button type="submit" class="btn btn-primary">Edit Post</button>
+      </form>
+    </main>
+
+    <!-- <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/js/edit.js"></script>
+  </body>
+</html>

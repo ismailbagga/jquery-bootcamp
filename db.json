@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Post 1 ",
+      "description": "This is a post about post 1",
+      "views": 100
+    },
+    {
+      "title": "NEW Post 2",
+      "description": "This is a post about post 2",
+      "views": "6",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "title": "Post 3",
+      "description": "This is a post about post 3",
+      "views": 200
+    },
+    {
+      "id": "4",
+      "title": "Post 4",
+      "description": "This is a post about post 4",
+      "views": 200
+    },
+    {
+      "id": "5",
+      "title": "Post 5",
+      "description": "This is a post about post 5",
+      "views": 200
+    },
+    {
+      "id": "4e9c",
+      "title": "React Is Aewsome",
+      "description": "Lorem ",
+      "views": "500"
+    },
+    {
+      "id": "0f5c",
+      "title": "Let Goo",
+      "description": " lorem",
+      "views": "50"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
